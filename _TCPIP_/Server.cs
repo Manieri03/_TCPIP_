@@ -42,7 +42,7 @@ namespace _TCPIP_
 
         private void srtbtn_Click(object sender, EventArgs e)
         {
-            statustxt.Text += "il server ha iniziato a comunicare";
+            statustxt.Text += "il server ha iniziato a comunicare"; 
             IPAddress ip = IPAddress.Parse(txtHost.Text);
         }
 
